@@ -1,6 +1,11 @@
 {
   "resources": [
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"spr_plyr_left","path":"sprites/spr_plyr_left/spr_plyr_left.yy",},"order":3,},
+    {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},"order":0,},
+    {"id":{"name":"spr_plyr_rear","path":"sprites/spr_plyr_rear/spr_plyr_rear.yy",},"order":2,},
+    {"id":{"name":"spr_plyr_forward","path":"sprites/spr_plyr_forward/spr_plyr_forward.yy",},"order":1,},
+    {"id":{"name":"spr_plyr_right","path":"sprites/spr_plyr_right/spr_plyr_right.yy",},"order":4,},
+    {"id":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Main","path":"options/main/options_main.yy",},
@@ -14,7 +19,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
