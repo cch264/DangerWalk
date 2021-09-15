@@ -4,4 +4,9 @@
 // Respawn the player
 instance_create_layer(314, 597, "level_1_player_layer", obj_player);
 
+with(obj_player)
+{	
+	has_level_started = true;
+}
+
 hideTiles();
