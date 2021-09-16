@@ -13,3 +13,6 @@ with(obj_game_controller)
 	// Run obj_game_controllers first alarm after 2 seconds, respawns character
 	alarm[1] = 2 * room_speed;
 }
+
+// Reset Buttons
+resetButtons();
