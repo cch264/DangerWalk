@@ -19,7 +19,7 @@ if (keyboard_check_pressed(vk_enter))
 
 if room == rm_game_level_1
 {
-if score <= 0
+	if score <= 0
     {
        room_goto(rm_gameover);
     }

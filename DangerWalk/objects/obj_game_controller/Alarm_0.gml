@@ -13,6 +13,26 @@ with(obj_walk_tile)
 	visible = false;
 }
 
+with(obj_tile_green)
+{
+	visible = false;	
+}
+
+with(obj_tile_red)
+{
+	visible = false;	
+}
+
+with(obj_tile_yellow)
+{
+	visible = false;	
+}
+
+with(obj_tile_blue)
+{
+	visible = false;	
+}
+
 with(obj_player)
 {
 	has_level_started = true;
