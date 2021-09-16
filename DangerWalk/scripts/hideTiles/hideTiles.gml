@@ -11,4 +11,24 @@ function hideTiles(){
 	{
 		visible = false;
 	}
+	
+	with( obj_tile_blue )
+	{
+		visible = false;
+	}
+	
+	with( obj_tile_green )
+	{
+		visible = false;
+	}
+	
+	with( obj_tile_red )
+	{
+		visible = false;
+	}
+	
+	with( obj_tile_yellow )
+	{
+		visible = false;
+	}
 }

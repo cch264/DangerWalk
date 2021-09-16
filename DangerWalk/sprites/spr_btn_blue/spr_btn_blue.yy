@@ -38,7 +38,7 @@
     "spriteId": {"name":"spr_btn_blue","path":"sprites/spr_btn_blue/spr_btn_blue.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 5.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

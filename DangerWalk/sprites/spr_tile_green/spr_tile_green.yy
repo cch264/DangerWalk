@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"42037e68-2c75-476d-b0d8-9df37625ff2c","path":"sprites/spr_blue_tile/spr_blue_tile.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"42037e68-2c75-476d-b0d8-9df37625ff2c","path":"sprites/spr_blue_tile/spr_blue_tile.yy",},"LayerId":{"name":"045b1342-bf3f-4180-a517-a0596f58c048","path":"sprites/spr_blue_tile/spr_blue_tile.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_blue_tile","path":"sprites/spr_blue_tile/spr_blue_tile.yy",},"resourceVersion":"1.0","name":"42037e68-2c75-476d-b0d8-9df37625ff2c","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"d59f40ba-10ff-4cd1-a9f3-8432ee7af325","path":"sprites/spr_tile_green/spr_tile_green.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"d59f40ba-10ff-4cd1-a9f3-8432ee7af325","path":"sprites/spr_tile_green/spr_tile_green.yy",},"LayerId":{"name":"fa5067f1-ae87-4283-aa90-50e7dc7ad7b5","path":"sprites/spr_tile_green/spr_tile_green.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_tile_green","path":"sprites/spr_tile_green/spr_tile_green.yy",},"resourceVersion":"1.0","name":"d59f40ba-10ff-4cd1-a9f3-8432ee7af325","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_blue_tile","path":"sprites/spr_blue_tile/spr_blue_tile.yy",},
+    "spriteId": {"name":"spr_tile_green","path":"sprites/spr_tile_green/spr_tile_green.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"4c338ca6-13c0-44cc-aacc-3d77b771ede4","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"42037e68-2c75-476d-b0d8-9df37625ff2c","path":"sprites/spr_blue_tile/spr_blue_tile.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"3f88b642-b5f6-4075-b389-7425682e92a6","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d59f40ba-10ff-4cd1-a9f3-8432ee7af325","path":"sprites/spr_tile_green/spr_tile_green.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_blue_tile","path":"sprites/spr_blue_tile/spr_blue_tile.yy",},
+    "parent": {"name":"spr_tile_green","path":"sprites/spr_tile_green/spr_tile_green.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_blue_tile",
+    "name": "spr_tile_green",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"045b1342-bf3f-4180-a517-a0596f58c048","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"fa5067f1-ae87-4283-aa90-50e7dc7ad7b5","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_blue_tile",
+  "name": "spr_tile_green",
   "tags": [],
   "resourceType": "GMSprite",
 }
