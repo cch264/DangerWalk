@@ -17,7 +17,7 @@ if (keyboard_check_pressed(vk_enter))
 //If player is playing the game and the score is 1000 or bigger take the player to the win screen.
 //If the player is playing the game and lives is < 1 then take the player to the lose screen
 
-if room == rm_game_level_1
+if room == rm_game_level_1 || room == rm_game_level_2
 {
 	if score <= 0
     {

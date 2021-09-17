@@ -2,7 +2,15 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function resetButtons()
 {
-	player_code = "";
+	
+	with(obj_player)
+	{
+		with(obj_btn_green)
+		{
+			other.x = x + 10;
+			other.y = y + 10;
+		}
+	}
 	
 	with(obj_btn_blue)
 	{

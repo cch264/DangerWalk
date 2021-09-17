@@ -4,9 +4,12 @@
 // Respawn the player
 instance_create_layer(314, 610, "level_1_player_layer", obj_player);
 
-with(obj_player)
+if( room == rm_game_level_1 )
 {	
-	has_level_started = true;
+	with(obj_player)
+	{	
+		has_level_started = true;
+	}
 }
 
 hideTiles();

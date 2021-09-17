@@ -8,21 +8,30 @@ if( has_level_started )
 {
 	if( keyboard_check( vk_left ) )
 	{
-		x -= 2;
+		if( !place_meeting(x - 2, y, obj_wall) )
+		{
+			x -= 2;
+		}
 		sprite_index = spr_plyr_left_walk;
 		sprite_still_direction = spr_plyr_left_still;
 	}
 
 	else if(keyboard_check( vk_right ) )
 	{
-	   x += 2;
+		if( !place_meeting(x + 2, y, obj_wall) )
+		{
+	      x += 2;
+		}
 	   sprite_index = spr_plyr_right_walk;
 	   sprite_still_direction = spr_plyr_right_still;
 	}
 
 	if( keyboard_check( vk_up ) )
 	{
-		y -= 2;
+		if( !place_meeting(x, y - 2, obj_wall) )
+		{
+			y -= 2;
+		}
 	   sprite_index = spr_plyr_rear;
 	   sprite_still_direction = spr_plyr_rear_still;
    
@@ -30,7 +39,10 @@ if( has_level_started )
 
 	if( keyboard_check(vk_down) )
 	{
-		y += 2;
+		if( !place_meeting(x, y + 2, obj_wall) )
+		{
+			y += 2;
+		}
 		sprite_index = spr_plyr_forward;
 		sprite_still_direction = spr_plyr_forward_still;
 	}
