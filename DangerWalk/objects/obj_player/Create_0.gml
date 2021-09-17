@@ -6,3 +6,4 @@
 sprite_still_direction =  spr_plyr_forward_still;
 
 has_level_started = false;
+

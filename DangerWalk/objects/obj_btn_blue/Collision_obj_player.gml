@@ -6,5 +6,6 @@ if !pressed
 {
 	pressed = true;
 	image_speed = 1;
+	//player code is the sequence of buttons the player touched
 	updatePlayerCode("b");
 }

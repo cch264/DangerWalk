@@ -20,10 +20,17 @@ function updatePlayerCode(newColor)
 						open = true;
 					}
 				}
-			
 				else
 				{
-					resetButtons()
+					
+					player_code = "";
+					
+					with(obj_player)
+					{
+						//Call alarm to reset buttons after 1 second
+					    alarm[0] = room_speed*1;
+					}
+					
 				}
 			}
 		}

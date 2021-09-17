@@ -4,7 +4,9 @@ score = 500;
 
 step = 0;
 
-elapsed_seconds = 5;
+timer_length = 2;
+
+elapsed_seconds = timer_length;
 
 color_code = "";
 
