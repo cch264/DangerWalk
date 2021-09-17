@@ -42,7 +42,7 @@ LEFT/RIGHT ARROWS: change direction
 
 Follow the lit up path to the door
 without touching any other tile.
-Remember what color appear beneath your player!
+Remember what colors appear beneath your player!
 Once you make it to the other side of the endless
 pit walk over the colored buttons
 in the order in which you saw the colored tiles.
