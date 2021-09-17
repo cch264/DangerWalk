@@ -7,9 +7,16 @@ if (keyboard_check_pressed(vk_enter))
 	    case rm_start:
 	        room_goto(rm_game_level_1);
 	        break;
-		case rm_gameover:
+		case rm_lose:
 	        game_restart();
 	        break;
+		case rm_title:
+	     room_goto(rm_start);
+	    break;
+		
+		case rm_win:
+	      game_restart();
+	    break;
 	    }
 	
 }
@@ -21,7 +28,7 @@ if room == rm_game_level_1 || room == rm_game_level_2
 {
 	if score <= 0
     {
-       room_goto(rm_gameover);
+       room_goto(rm_lose);
     }
 	
 // increase step count for timer in this objects draw event

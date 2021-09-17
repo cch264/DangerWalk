@@ -4,7 +4,7 @@ score = 500;
 
 step = 0;
 
-timer_length = 2;
+timer_length = 10;
 
 elapsed_seconds = timer_length;
 
