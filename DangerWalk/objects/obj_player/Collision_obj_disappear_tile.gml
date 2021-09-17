@@ -4,7 +4,7 @@
 // Destory the instance, will not actually be destroyed until the event completes.
 instance_destroy();
 
-score -= 200;
+score -= 100;
 
 other.visible = true;
 

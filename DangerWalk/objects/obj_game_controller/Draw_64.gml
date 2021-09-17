@@ -40,26 +40,44 @@ UP ARROW: move up
 DOWN ARROW: move down
 LEFT/RIGHT ARROWS: change direction
 
-Follow the lit up path to the door without touching any other tile.
+Follow the lit up path to the door
+without touching any other tile.
 Remember what color appear beneath your player!
-Once you make it to the other side of the endless pit walk over the colored buttons
+Once you make it to the other side of the endless
+pit walk over the colored buttons
 in the order in which you saw the colored tiles.
-Touching a non lit up tile will cause you to lose 50 points! If you lose all of your
+Touching a non lit up tile will cause you to lose 50 
+points! If you lose all of your
 points its game over!
 
 >>PRESS ENTER TO START<<");
 	draw_set_halign(fa_center);
 	
     break;
+	
+	case rm_title:
+    var c = c_yellow;
+draw_text(289, 614, 
+@"
+>>PRESS ENTER TO START<<");
+	draw_set_halign(fa_center);
+	
+    break;
 
-case rm_gameover:
+case rm_lose:
     
     draw_set_halign(fa_center);
     var c = c_lime;
-    draw_text_transformed_colour(room_width / 2, 200, "YOU LOST!", 3, 3, 0, c, c, c, c, 1);
-    draw_text(room_width / 2, 300, "PRESS ENTER TO RESTART");
+    draw_text(room_width / 2, 510, "PRESS ENTER TO RESTART");
     draw_set_halign(fa_left);
-    break;
+    break; 
+case rm_win:
+    
+	draw_set_halign(fa_center);
+	var c = c_lime;
+	draw_text(113, 727, "PRESS ENTER TO RESTART");
+	draw_set_halign(fa_left);
+	break;
 }
 
 // Make count down timer till game begins, stop counting down once timer == 0

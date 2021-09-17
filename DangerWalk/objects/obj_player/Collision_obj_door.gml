@@ -12,7 +12,7 @@ if( other.open )
 		case rm_game_level_2:
 		 room_goto(rm_win);
 			break;
-		case rm_gameover:
+		case rm_lose:
 	        game_restart();
 	        break;
 	    }
