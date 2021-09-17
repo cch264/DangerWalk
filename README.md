@@ -21,5 +21,5 @@ N/A
 # Credits
 
 * Trevor Johnson: Created door, button, and wall sprites and animations. Coded events and scripts for button interaction and keeping track of the win condition.
-* Calvin Harper: Created player forward, rear, left, and right walking sprites animations. Created player forward, rear, left, and right still sprite animations. Created floor, pit, colored tiles, and walking tile sprites. Coded events for player movement, player tile collision, and path traversal. Coded events for room switching including all events that involve moving from each screen. Created instruction screen. Created score counter and timer including all logic associated with decrementing the score and timer. 
+* Calvin Harper: Created player forward, rear, left, and right walking sprites animations. Created player forward, rear, left, and right still sprite animations. Created floor, pit, colored tiles, and walking tile sprites. Coded events for player movement, player tile collision, and path traversal. Coded events for room switching including all events that involve moving from each screen. Created instruction screen. Created score counter and timer including all logic associated with decrementing the score and timer. Created bat sprite and tween. 
 * Logan O'Donnell: Created title, win, and lose sprites. Created sequences for winning and losing.
