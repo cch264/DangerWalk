@@ -8,7 +8,7 @@
 
 ## Instructions
 
-Danger Walk is a 2-part hybrid puzzle game wherein the player must traverse a disappearing path from memory, then enter a 4-color code, that was presented to them as they walked the path, by stepping on colored buttons in the correct order. You will start each level with a score of 500 and the correct path will be breifly shown. Avoid stepping off the path, as this will restart the level and lower your score by 200. If the score reaches 0, you lose. If you successfully make it across and enter the correct code, the door will open and allow you to continue. 
+Danger Walk is a 2-part hybrid puzzle game wherein the player must traverse a disappearing path from memory, then enter a 4-color code, that was presented to them as they walked the path, by stepping on colored buttons in the correct order. You will start each level with a score of 500 and the correct path will be breifly shown. Avoid stepping off the path, as this will restart the level and lower your score by 100. If the score reaches 0, you lose. If you successfully make it across and enter the correct code, the door will open and allow you to continue. 
 
 Movement is done with the arrow keys and buttons are pressed by simply standing on them. 
 
